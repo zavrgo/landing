@@ -1,0 +1,288 @@
+*{margin: 0 ;
+padding: 0;}
+html{
+    scroll-behavior: smooth;
+}
+.banner{
+    background-image: url("xxaxaxxxaxaxaxaxaxxa.jpg");
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: right;
+}
+body{
+    background-image: url("фон.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.info{
+    background-color: rgba(0, 0, 0, 0.416);
+    display: inline-block;
+    font-family: 'kanit', cursive;
+    width: 40%;
+    vertical-align: middle;
+    color: white;
+    padding:20px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-right: 90px;
+}
+.info p:nth-child(2){
+    margin-bottom: 50px;
+}
+.aboutUs img{
+    display: inline;
+    width: 40%;
+    vertical-align:middle;
+    border-radius: 30px;
+    box-shadow:0 3px 12px black;
+}
+.aboutUs{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:white;
+    text-shadow: 0 0 10px black;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+    margin-top:  20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.menu{
+    text-align: center;
+    font-family: 'kanit', cursive;
+   
+}
+.menu a{
+ color: rgb(0, 0, 0);
+ border: 1px solid transparent;
+ background-color: rgb(255, 255, 255);
+ padding: 10px;
+ display: inline-block;
+ text-decoration: none;
+ transition: 0.5s;
+ border: 1px solid white;
+ font-size: 20px;
+ border-radius: 5px;
+ margin-bottom: 5px;
+}
+.menu a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(194, 194, 194, 0.642);
+    border: 1px solid rgb(255, 255, 255)
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 3px black;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'kanit', cursive;
+}
+.banner p{
+    background-image: linear-gradient(to right, transparent,rgba(0, 0, 0, 0.445));
+    width: 50%;
+    text-align: right;
+    color: white;
+    text-shadow: 0 5px 5px black;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 30px;
+    font-family: 'kanit', cursive;
+    padding: 10px;
+    border-radius: 10px;
+}
+.banner a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.747);
+    color: black;
+    text-shadow:0 3px 5px white;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 5333px;
+    width: 200px;
+    margin: auto;
+    transition: 1s;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'kanit', cursive;
+}
+.banner a:hover{
+    background-color: rgba(172, 172, 172, 0.705);
+}
+.card:nth-of-type(1){
+background-image:url("Montenegro.jpg");
+border: 2px solid rgba(0, 0, 0, 0.546)
+
+}
+.card:nth-of-type(2){
+background-image: url("kr.jpg");
+border: 1px solid rgba(0, 0, 0, 0.546)
+
+}
+.card:nth-of-type(3){
+    background-image: url("испания.jpg");
+    border: 1px solid rgba(0, 0, 0, 0.546)
+}
+.ourservicesaroundtheworld{
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'kanit', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow:0 3px 5px rgba(0, 0, 0, 0.397);
+}
+.card{
+    width: 25%;
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.397);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 40px;
+}
+.factory{
+    text-align: center;
+}
+.card h3{
+    font-family: 'kanit', cursive;
+    color: white;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.674);
+    padding: 20px 20px;
+}
+.card ul{
+font-family: 'kanit', cursive;
+background-color: rgba(255, 255, 255, 0.849);
+text-align: center;
+list-style:none;
+margin-bottom: 40px;
+border-radius: 20px;
+text-shadow: 0 3px 5px rgba(0, 0, 0, 0.402);
+border: 1px black;
+color: #222;
+}
+
+
+
+.card2{
+    border-radius: 10px;
+    width: 28%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.447);
+    padding: 15px;
+    vertical-align: top;
+}  
+.card2 img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 500px;
+object-position: top;
+}
+#gosha{
+    object-position: center;
+}
+.Team{
+    text-align: center;
+}
+.card2 p{
+    font-family: 'kanit', cursive;
+    color: rgb(255, 212, 160);
+}
+.card2 h5{
+    font-family: 'kanit', cursive;
+    color: #967f63;
+}
+.card2 h3{
+    font-family: 'kanit', cursive;
+    color: rgb(255, 177, 81);
+}
+
+.button{
+    font-family: 'kanit', cursive;
+    text-decoration: none;
+    color: #222;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    display: block;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-size: 30px;
+    text-shadow: 0 3px 10px black;
+    transition: 1s;
+    padding: 0 20px;
+    
+}
+.button:hover{
+    background-color: rgba(171, 171, 171, 0.683);
+}
+.form{
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0 0px;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px #222222ce;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.feedback h5{
+    text-align: center;
+    font-family: 'kanit', cursive;
+    color:#222;
+    margin-bottom: 10px;
+}
+.feedback h2{
+    margin-bottom: 0;
+    
+}
+.form input,textarea{
+    width: 90%;
+    /* чтобы пайдинги не делали шире инпут  */
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    height: 40px;
+    resize: vertical;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0 7px 5px #22222264;
+    padding: 0 5px;
+    outline: none;
+}
+
+@media (max-width:600px){
+    .banner p{width: auto; 
+        margin-left: 10px; 
+        margin-right: 10px;}
+        .info{
+            width: auto;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .aboutUs img{
+            width: 90%;
+            margin: auto;
+            display: block;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* завершить карточку */
