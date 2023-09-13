@@ -144,6 +144,7 @@ border: 1px solid rgba(0, 0, 0, 0.546)
     border-radius: 10px;
     margin: 5px;
     padding: 40px;
+    box-sizing: border-box;
 }
 .factory{
     text-align: center;
@@ -177,6 +178,8 @@ color: #222;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.447);
     padding: 15px;
     vertical-align: top;
+    /* чтобы пайдинг не расширял карточку */
+    box-sizing: border-box;
 }  
 .card2 img{
 width: 200px;
@@ -271,6 +274,12 @@ object-position: top;
             width: 90%;
             margin: auto;
             display: block;
+        }
+        .card{
+            width: 90%;
+        }
+        .card2{
+            width: 90%;
         }
 }
 
